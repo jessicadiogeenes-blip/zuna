@@ -176,14 +176,52 @@ article a {
 
 /* SOBRE */
 
-#sobre {
+/* SOBRE */
+
+.pagina-sobre main {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.pagina-sobre #sobre {
     background-color: var(--laranja);
+    padding: 45px;
+    border: 3px solid var(--texto);
+    border-radius: 22px;
+    margin-bottom: 40px;
+    box-shadow: 8px 8px 0 var(--texto);
+}
+
+.pagina-sobre h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: var(--texto);
+}
+
+.pagina-sobre #sobre p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 850px;
+}
+
+.pagina-sobre main section:nth-child(2) {
+    background-color: var(--rosa);
     padding: 35px;
     border: 3px solid var(--texto);
     border-radius: 22px;
     margin-bottom: 40px;
 }
 
+.pagina-sobre main section:nth-child(2) p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.pagina-sobre footer {
+    text-align: center;
+    padding: 25px;
+}
 /* CONTATO */
 
 #contato {
